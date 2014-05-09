@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+
+
+<script type='text/javascript' src='iFrame.js'></script>
+
+
+</head>
+<body>
+
+
+
+<div>
+<button type="button" onclick="back();" id="back">Back</button>
+<button type="button" onclick="forward();" id="forward">Forward</button>
+<button type="button" onclick="refresh();" id="refresh">Refresh</button>
+
+
+<input type="url" id="address" value="Enter Address Here" size="128">
+<button type="button" onclick="go();" id="refresh">Go</button>
+
+
+
+<button type="button" onclick="search();" id="searchSubmit">Search</button>
+<button type="button" onclick="setSize();" id="setSize">Set Size</button>
+</div>
+
+<iframe src="http://www.shepardsworkshop.com" height = "993" width = "100%" id="iframe" frameborder="0" >
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+</body>
+</html>
